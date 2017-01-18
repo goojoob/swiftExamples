@@ -15,7 +15,7 @@ func isMultipleFive(number:Int) -> Bool {
 }
 
 func isMultipleThreeFive(number:Int) -> Bool {
-    if number % 15 {
+    if number % 15 == 0 {
         return true
     } else {
         return false
